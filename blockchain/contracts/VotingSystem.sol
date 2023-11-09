@@ -47,4 +47,5 @@ contract VotingSystem {
         voters[msg.sender] = true;
         candidates[_candidateId].voteCount++;
     }
+    
 }
